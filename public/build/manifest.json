@@ -21,5 +21,11 @@
     "name": "states-municipalities",
     "src": "resources/js/views/states-municipalities.js",
     "isEntry": true
+  },
+  "resources/js/views/states-paginated.js": {
+    "file": "assets/states-paginated-DL5UkfZa.js",
+    "name": "states-paginated",
+    "src": "resources/js/views/states-paginated.js",
+    "isEntry": true
   }
 }

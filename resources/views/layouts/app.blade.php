@@ -15,7 +15,7 @@
     <body class="d-flex flex-column">
         <nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top">
             <div class="container py-2">
-                <a class="navbar-brand fw-bold text-primary" href="{{ route('states.index') }}">
+                <a class="navbar-brand fw-bold text-primary" href="{{ route('welcome') }}">
                     {{ config('app.name', 'INEGI Estados') }}
                 </a>
 
@@ -30,7 +30,7 @@
         </main>
 
         <footer class="py-4 text-center text-secondary small">
-            Proyecto base listo para desarrollo con Laravel 11.
+            INEGI Estados
         </footer>
         @stack('scripts')
         @stack('vite')

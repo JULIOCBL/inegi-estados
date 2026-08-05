@@ -13,7 +13,7 @@
                     <p class="text-body-secondary mb-0">{{ $state->name }} ({{ $state->code }})</p>
                 </div>
 
-                <a href="{{ route('states.index') }}" class="btn btn-outline-secondary">
+                <a href="{{ $back_url }}" class="btn btn-outline-secondary">
                     Regresar
                 </a>
             </div>

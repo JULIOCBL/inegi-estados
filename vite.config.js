@@ -8,6 +8,7 @@ export default defineConfig({
                 'resources/css/app.css',
                 'resources/js/app.js',
                 'resources/js/views/states-index.js',
+                'resources/js/views/states-paginated.js',
                 'resources/js/views/states-municipalities.js',
             ],
             refresh: true,
