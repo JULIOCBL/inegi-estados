@@ -1,6 +1,6 @@
 {
   "resources/css/app.css": {
-    "file": "assets/app-CfPBB9cp.css",
+    "file": "assets/app-Bdk90y1W.css",
     "src": "resources/css/app.css",
     "isEntry": true
   },
@@ -8,6 +8,12 @@
     "file": "assets/app-CQi5Unwk.js",
     "name": "app",
     "src": "resources/js/app.js",
+    "isEntry": true
+  },
+  "resources/js/views/states-index.js": {
+    "file": "assets/states-index-6eowus1O.js",
+    "name": "states-index",
+    "src": "resources/js/views/states-index.js",
     "isEntry": true
   }
 }

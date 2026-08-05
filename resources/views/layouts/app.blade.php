@@ -10,17 +10,18 @@
         <link href="https://fonts.bunny.net/css?family=instrument-sans:400,500,600,700&display=swap" rel="stylesheet" />
 
         @vite(['resources/css/app.css', 'resources/js/app.js'])
+        @stack('styles')
     </head>
     <body class="d-flex flex-column">
         <nav class="navbar navbar-expand-lg bg-white border-bottom sticky-top">
             <div class="container py-2">
-                <a class="navbar-brand fw-bold text-primary" href="/">
+                <a class="navbar-brand fw-bold text-primary" href="{{ route('states.index') }}">
                     {{ config('app.name', 'INEGI Estados') }}
                 </a>
 
-                <span class="small text-secondary">
-                    Laravel + MySQL + Bootstrap
-                </span>
+                <div class="navbar-nav">
+                    <a class="nav-link" href="{{ route('states.index') }}">Estados</a>
+                </div>
             </div>
         </nav>
 
@@ -29,7 +30,9 @@
         </main>
 
         <footer class="py-4 text-center text-secondary small">
-            Base inicial lista para desarrollo con Laravel 11.
+            Proyecto base listo para desarrollo con Laravel 11.
         </footer>
+        @stack('scripts')
+        @stack('vite')
     </body>
 </html>
