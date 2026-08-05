@@ -49,5 +49,21 @@ class StateController extends Controller
         }
     }
 
+    public function municipalities(State $state, InegiService $inegi_service): View|RedirectResponse
+    {
+        try {
+            $municipalities = $inegi_service->fetchMunicipalities($state->code);
 
+            return view('states.municipalities', [
+                'state' => $state,
+                'municipalities' => $municipalities,
+            ]);
+        } catch (Throwable $exception) {
+            report($exception);
+
+            return redirect()
+                ->route('states.index')
+                ->with('error', 'The municipalities could not be loaded right now.');
+        }
+    }
 }

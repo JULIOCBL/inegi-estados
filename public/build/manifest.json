@@ -15,5 +15,11 @@
     "name": "states-index",
     "src": "resources/js/views/states-index.js",
     "isEntry": true
+  },
+  "resources/js/views/states-municipalities.js": {
+    "file": "assets/states-municipalities-BH6h72zQ.js",
+    "name": "states-municipalities",
+    "src": "resources/js/views/states-municipalities.js",
+    "isEntry": true
   }
 }

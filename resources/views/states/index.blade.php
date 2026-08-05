@@ -51,7 +51,7 @@
                                     <tr>
                                         <td>{{ $state->code }}</td>
                                         <td>
-                                            <a href="" class="text-decoration-none">
+                                            <a href="{{ route('states.municipalities', $state) }}" class="text-decoration-none">
                                                 {{ $state->name }}
                                             </a>
                                         </td>
