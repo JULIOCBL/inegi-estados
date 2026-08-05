@@ -35,4 +35,9 @@ return [
         ],
     ],
 
+    'inegi' => [
+        'base_url' => env('INEGI_BASE_URL', 'https://gaia.inegi.org.mx/wscatgeo/v2/'),
+        'timeout' => env('INEGI_TIMEOUT', 15),
+    ],
+
 ];
